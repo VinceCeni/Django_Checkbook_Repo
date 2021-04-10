@@ -1,5 +1,5 @@
 from django.urls import path
-from . import views
+from Checkbook.templates import views
 
 urlpatterns = [
     path('', views.home, name='index'),
