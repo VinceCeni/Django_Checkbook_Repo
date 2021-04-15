@@ -13,6 +13,7 @@ class Account(models.Model):
     def __str__(self):
         return self.first_name + ' ' + self.last_name
 
+
 TransactionTypes = [('Deposit', 'Deposit'), ('Withdrawal', 'Withdrawal')]
 
 

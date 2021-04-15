@@ -7,7 +7,7 @@ def home(request):
     if request.method == 'POST':
         pk = request.POST['account']
         return balance(request, pk)
-    content = {'form':form}
+    content = {'form': form}
     return render(request, 'checkbook/index.html', content)
 
 
