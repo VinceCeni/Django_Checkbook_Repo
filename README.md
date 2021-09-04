@@ -1,0 +1,1 @@
+Hello and welcome to my django_checkbook project! This app allows users to do basic banking transactions including making deposits and make inquiries regarding their account balance. Enclosed is the code I used. If you have any questions please feel free to contact me! 
